@@ -1,17 +1,17 @@
 ﻿<UserControl x:Class="AdamOneilSoftware.FilenameTextBox"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:AdamOneilSoftware"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
              d:DesignHeight="20" d:DesignWidth="150">
     <Grid>
         <Grid.ColumnDefinitions>
-			<ColumnDefinition Width="1*"/>
-			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="1*" />
+			<ColumnDefinition Width="Auto" />
 		</Grid.ColumnDefinitions>
-		<TextBox x:Name="tbFilename" Grid.Column="0" MouseDoubleClick="tbFilename_MouseDoubleClick"/>
+		<TextBox x:Name="tbFilename" Grid.Column="0" MouseDoubleClick="tbFilename_MouseDoubleClick" />
         <Button Grid.Column="1" Margin="0" Padding="4,1" x:Name="btnFilename" Click="btnFilename_Click">...</Button>
     </Grid>
 </UserControl>

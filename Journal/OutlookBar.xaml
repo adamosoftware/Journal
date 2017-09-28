@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AdamOneilSoftware"        
+        xmlns:local="clr-namespace:AdamOneilSoftware"
         mc:Ignorable="d"
         Title="Journal" Height="350" Width="600">
     <Window.Resources>
@@ -83,15 +83,15 @@
                                 <!-- This defines the look of the individual TabItems -->
                                 <Grid Background="{TemplateBinding Background}" MinHeight="32" SnapsToDevicePixels="True">
                                     <Line Stroke="{StaticResource BorderBrush}" VerticalAlignment="Top" Stretch="Fill" X2="1" SnapsToDevicePixels="True" />
-                                    <ContentPresenter Margin="5,0,5,0" TextBlock.FontFamily="Tahoma" TextBlock.FontSize="8pt" TextBlock.FontWeight="Bold" TextBlock.Foreground="{StaticResource CaptionBrush}" Content="{TemplateBinding Header}" VerticalAlignment="Center"/>
+                                    <ContentPresenter Margin="5,0,5,0" TextBlock.FontFamily="Tahoma" TextBlock.FontSize="8pt" TextBlock.FontWeight="Bold" TextBlock.Foreground="{StaticResource CaptionBrush}" Content="{TemplateBinding Header}" VerticalAlignment="Center" />
                                 </Grid>
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
                 </Style>
             </ControlTemplate.Resources>
-            <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" 
-				SnapsToDevicePixels="True" >
+            <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1"
+				SnapsToDevicePixels="True">
                 <DockPanel>
                     <StackPanel IsItemsHost="True" DockPanel.Dock="Top" />
                     <ContentPresenter Content="{TemplateBinding SelectedContent}" />
@@ -101,12 +101,12 @@
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="7*"/>
-            <ColumnDefinition Width="5"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
         <RichTextBox Grid.Column="0" AcceptsTab="True" AcceptsReturn="True" FontSize="14.667"></RichTextBox>
-        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"/>
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
         <TabControl Grid.Column="2" Template="{StaticResource NavBar}">
             <TabItem Header="Search">
                 <ListBox>

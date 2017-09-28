@@ -2,25 +2,25 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Login" Height="150" Width="350" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" FocusManager.FocusedElement="{Binding ElementName=tbPassword}">
-	
+
 	<Grid>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="*"/>					
-			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*" />
+			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Width="250px" VerticalAlignment="Center">
             <Grid.RowDefinitions>
-				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto" />
 			</Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-				<ColumnDefinition Width="Auto"/>
-				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0">Password:</Label>
-            <PasswordBox x:Name="tbPassword" Grid.Column="1" PasswordChanged="tbPassword_PasswordChanged" VerticalContentAlignment="Center"/>
+            <PasswordBox x:Name="tbPassword" Grid.Column="1" PasswordChanged="tbPassword_PasswordChanged" VerticalContentAlignment="Center" />
         </Grid>
-						
+
 		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
 			<Button x:Name="btnOK" Style="{StaticResource buttons}" IsDefault="True" Click="OK_Click" IsEnabled="False">OK</Button>
 			<Button Style="{StaticResource buttons}" IsCancel="True">Cancel</Button>

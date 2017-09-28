@@ -8,10 +8,10 @@
         Title="Create Database" Height="222.807" Width="450" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-            <RowDefinition Height="1*"/>
-			<RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+			<RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Margin="5px" TextWrapping="Wrap">
@@ -21,33 +21,32 @@
 
         <Grid Grid.Row="1" VerticalAlignment="Center" Margin="10,0">
             <Grid.RowDefinitions>
-				<RowDefinition Height="Auto"/>
-				<RowDefinition Height="Auto"/>
-				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
 			</Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-				<ColumnDefinition Width="Auto"/>
-				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
 
             <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right">Filename:</Label>
-            <local:FilenameTextBox x:Name="tbFilename" Grid.Row="0" Grid.Column="1" Mode="Save" Filter="Journal Databases|*.sdf|All Files|*.*" DefaultExt=".sdf"/>
-			
+            <local:FilenameTextBox x:Name="tbFilename" Grid.Row="0" Grid.Column="1" Mode="Save" Filter="Journal Databases|*.sdf|All Files|*.*" DefaultExt=".sdf" />
+
             <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">Password:</Label>
-            <PasswordBox x:Name="tbPassword" Grid.Row="1" Grid.Column="1"/>
+            <PasswordBox x:Name="tbPassword" Grid.Row="1" Grid.Column="1" />
 
             <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right">Confirm:</Label>
-            <PasswordBox x:Name="tbConfirmPwd" Grid.Row="2" Grid.Column="1"/>
+            <PasswordBox x:Name="tbConfirmPwd" Grid.Row="2" Grid.Column="1" />
         </Grid>
-		
+
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
             <CheckBox x:Name="chkSavePwd" Margin="3px">Save password on desktop</CheckBox>
 		</StackPanel>
-		
+
 		<StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button x:Name="btnOK" Style="{StaticResource buttons}" Click="btnOK_Click">OK</Button>
             <Button Style="{StaticResource buttons}" IsCancel="True">Cancel</Button>
         </StackPanel>
-
     </Grid>
 </Window>

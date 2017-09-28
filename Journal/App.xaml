@@ -5,12 +5,12 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style x:Key="dark" TargetType="Window">
-			<Setter Property="Background" Value="Black"/>
-		</Style>
+            <Setter Property="Background" Value="Black" />
+        </Style>
         <Style x:Key="buttons" TargetType="Button">
-            <Setter Property="Padding" Value="3px"/>
-            <Setter Property="Margin" Value="5px"/>
-            <Setter Property="MinWidth" Value="100px"/>
+            <Setter Property="Padding" Value="3px" />
+            <Setter Property="Margin" Value="5px" />
+            <Setter Property="MinWidth" Value="100px" />
         </Style>
     </Application.Resources>
 </Application>
