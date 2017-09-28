@@ -1,0 +1,352 @@
+DeployMaster Installation Script
+17
+Adam O'Neil Software
+
+Journal
+
+0.9.2
+42274
+
+Copyright © 2015 Adam O'Neil Software
+
+
+FALSE
+
+
+%PROGRAMFILES%\Adam O'Neil Software\Journal
+%COMMONFILES%\Adam O'Neil Software\Journal
+%PROGRAMSMENU%\Journal
+%APPDATAROOT%\Adam O'Neil Software\Journal
+2
+1
+You are attempting to run the installer for %APP% %VERSION%.  This installer only works on %INSTALLER%-bit versions of Windows.  You are running a %USER%-bit version of Windows.  Please check the developer's website to see whether there is a separate %USER%-bit installer for %APP% that you can use on your version of Windows.
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+TRUE
+TRUE
+TRUE
+TRUE
+TRUE
+TRUE
+1
+You are attempting to run the installer for %APP% %VERSION%.  This installer supports the following versions of Windows: %INSTALLER%.  You are running %USER%.  Please check the developer's website to see whether there is a separate installer for %APP% that you can use on %USER%.
+TRUE
+TRUE
+1
+-16777198
+Tahoma
+8
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+16711680
+0
+
+TRUE
+Adam O'Neil Software Journal 0.9.0
+1
+16777215
+Times New Roman
+36
+TRUE
+FALSE
+FALSE
+FALSE
+TRUE
+0
+
+1
+16777215
+Times New Roman
+20
+TRUE
+FALSE
+FALSE
+FALSE
+TRUE
+0
+English (Default)
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+HKEY_LOCAL_MACHINE\Software\Adam O'Neil Software\Journal
+FALSE
+0
+FALSE
+0
++
+New component
+0
+TRUE
+TRUE
+Description of this component to help the user to determine if it should be installed or not.
++
+%APPFOLDER%
+1
+FALSE
++
+amd64
+1
+FALSE
++
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlceca40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlcecompact40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlceer40EN.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlceme40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlceqp40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\sqlcese40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+-
+x86
+1
+FALSE
++
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlceca40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlcecompact40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlceer40EN.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlceme40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlceqp40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\sqlcese40.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+-
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\AoOptions.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\Journal.exe
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\Microsoft.Expression.Controls.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\Microsoft.Expression.Drawing.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\System.Data.SqlServerCe.dll
+3
+1
+TRUE
+TRUE
+FALSE
+FALSE
+-
+%APPMENU%
+1
+FALSE
++
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\Journal.exe
+4
+
+
+
+
+0
+0
+-
+%DESKTOP%
+1
+FALSE
++
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\bin\Debug\Journal.exe
+4
+Journal
+
+
+C:\Users\Adam\Dropbox\Visual Studio 2015\Projects\Journal\Journal\Section.ico
+0
+0
+-
+%FONTS%
+1
+FALSE
+%SYSTEM%
+1
+FALSE
+%USERDATA%
+1
+TRUE
+%WINDOWS%
+1
+FALSE
+-
+-
+0
+0
+2
+TRUE
+Journal
++
+HKEY_CLASSES_ROOT
+0
+FALSE
+HKEY_CURRENT_USER
+0
+FALSE
++
+Software
+0
+FALSE
++
+Adam O'Neil Software
+0
+FALSE
++
+Journal
+0
+FALSE
+-
+-
+-
+HKEY_LOCAL_MACHINE
+0
+FALSE
++
+Software
+0
+FALSE
++
+Adam O'Neil Software
+0
+FALSE
++
+Journal
+0
+FALSE
+-
+-
+-
+-
+0
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+TRUE
+1
+
+http://www.deploymaster.com/dotnetfx.html
+0
+TRUE
+FALSE
+TRUE
+FALSE
+
+
+
+
+
+
+FALSE
+
+
+FALSE
+FALSE
+42274
+0
+FALSE
+42274
+0
+4095
+*.chm;*.png;*.jpg;*.gif;*.mp3;*.avi;*.zip
+
+JournalSetup.exe
+
+FALSE
+
+
+TRUE
