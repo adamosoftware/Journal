@@ -272,5 +272,10 @@ namespace AdamOneilSoftware
 				MessageBox.Show(exc.Message);
 			}
 		}
-	}
+
+        private void mnuFileSave_Click(object sender, RoutedEventArgs e)
+        {
+            SaveEntry();
+        }
+    }
 }

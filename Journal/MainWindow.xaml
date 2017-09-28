@@ -24,6 +24,7 @@
         <Menu Grid.Row="0" Grid.ColumnSpan="5" x:Name="gridMain">
             <MenuItem Header="Entry">
 				<MenuItem Header="New" x:Name="mnuFileNewEntry" Click="mnuFileNewEntry_Click"/>
+                <MenuItem Header="Save" x:Name="mnuFileSave" Click="mnuFileSave_Click"/>
                 <Separator/>
                 <MenuItem Header="Save and Exit" x:Name="mnuFileSaveAndExit" Click="mnuFileSaveAndExit_Click"/>                                
             </MenuItem>
