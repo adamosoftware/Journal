@@ -175,7 +175,7 @@ namespace AdamOneilSoftware
         {
             if (_db.IsOpened && _entryModified)
             {
-                _db.SaveEntry(_entryID, rtbContent);
+                _entryID = _db.SaveEntry(_entryID, rtbContent);
                 _entryModified = false;
             }
         }

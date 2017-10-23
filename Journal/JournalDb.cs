@@ -137,10 +137,10 @@ namespace AdamOneilSoftware
             get { return _opened; }
         }
 
-        public void SaveEntry(int entryID, RichTextBox rtbContent)
+        public int SaveEntry(int entryID, RichTextBox rtbContent)
         {
             var content = new TextRange(rtbContent.Document.ContentStart, rtbContent.Document.ContentEnd);
-            if (content.IsEmpty) return;
+            if (content.IsEmpty) return 0;
 
             string richText = null;
             using (var ms = new MemoryStream())
@@ -168,8 +168,19 @@ namespace AdamOneilSoftware
                     cmd.Parameters.Add(new SqlCeParameter("PlainText", content.Text));
                     cmd.ExecuteNonQuery();
                 }
+
+                if (entryID == 0)
+                {
+                    using (SqlCeCommand cmd = new SqlCeCommand("SELECT @@IDENTITY", cn))
+                    {
+                        object entryIDresult = cmd.ExecuteScalar();
+                        entryID = Convert.ToInt32(entryIDresult);
+                    }
+                }
                 cn.Close();
             }
+
+            return entryID;
         }
 
         public Entry Find(int id)
